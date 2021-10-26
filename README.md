@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-#This is Version 1.2 of the app and we are still in Laravel but now using valet as the server as in NBSC.
+##This is Version 1.2 of the app and we are still in Laravel but now using valet as the server as in "api" project in NBSC.
 
 ## About Laravel
 
