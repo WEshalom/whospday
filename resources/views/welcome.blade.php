@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Howdy</title>
+        <title>Welcome</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
@@ -45,7 +45,7 @@
             }
 
             .title {
-                font-size: 84px;
+                font-size: 40px;
             }
 
             .links > a {
@@ -59,7 +59,8 @@
             }
 
             .m-b-md {
-                margin-bottom: 30px;
+                margin-left: 1px;
+                left: 1px;
             }
         </style>
     </head>
@@ -79,12 +80,10 @@
                 </div>
             @endif
 
-            <div class="content">
                 <div class="title m-b-md">
-                    The BDAY project - following after "api"
+                    The BDAY project
                 </div>
 
-            </div>
         </div>
     </body>
 </html>
