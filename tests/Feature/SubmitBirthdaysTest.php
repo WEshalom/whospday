@@ -22,15 +22,18 @@ class SubmitBirthdaysTest extends TestCase
         $this->assertDatabaseHas('birthdays', [
             'first_name' => 'Larry'
         ]);
+
         $response
             ->assertStatus(302)
             ->assertHeader('Location', url('/'));
         $this
             ->get('/')
-            ->assertSee('Example Title');
+            ->assertSee('Welcome');
     }
     /** @test */
-    function birthday_is_not_created_if_validation_fails() {}
+    function birthday_is_not_created_if_validation_fails() {
+        $response = $this->post();
+    }
     /** @test */
     function birthday_is_not_created_with_an_invalid_date() {}
     /** @test */
